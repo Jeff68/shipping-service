@@ -1,4 +1,5 @@
-{
+
+/*{
   "name": "shipping-service-17",
   "version": "1.0.0",
   "description": "",
@@ -28,5 +29,27 @@
   "dependencies": {
     "axios": "^0.19.2",
     "express": "^4.17.1"
+  }
+}
+*/
+{
+  "name": "shipping-service-17",
+  "version": "0.0.1",
+  "main": "app.js",
+  "scripts": {
+      "test": "jest tests",
+      "start": "node src/app.js"
+  },
+  "engines": {
+      "node": "8.11.3",
+      "npm": "5.6.x"
+  },
+  "dependencies": {
+      "axios": "^0.18.0",
+      "express": "^4.16.3"
+  },
+  "devDependencies": {
+      "nock": "^9.4.2",
+      "sinon": "^6.1.3"
   }
 }
